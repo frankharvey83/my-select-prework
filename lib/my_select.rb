@@ -14,6 +14,7 @@ end
   new_arr
 end
 end
+end
 #iterate over elements
 #if elements matches argument
 #store element in new array

@@ -8,14 +8,13 @@ if block_given?
     if collection[i]
     new_arr << collection[i]
     i += 1
-  end
-  #iterate over elements
-  #if elements matches argument
-  #store element in new array
-  #return new array
 else
   "No block given."
 end
   new_arr
 end
 end
+#iterate over elements
+#if elements matches argument
+#store element in new array
+#return new array

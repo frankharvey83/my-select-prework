@@ -4,7 +4,8 @@ if block_given?
   new_arr = []
 
   while i < collection.length
-    new_arr.push(yield collection[i])
+    if(yield collection[i])
+      new_arr.push(collection[i])
     i += 1
   end
 

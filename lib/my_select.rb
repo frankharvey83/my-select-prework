@@ -6,10 +6,10 @@ if block_given?
   while i < collection.length
     if(yield collection[i])
       new_arr.push(collection[i])
+    end
     i += 1
   end
 end
-
 else
   "No block given."
 end

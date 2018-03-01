@@ -7,14 +7,13 @@ if block_given?
     new_arr.push(yield collection[i])
     i += 1
   end
-  
+
 else
   "No block given."
 end
   new_arr
 end
-end
-end
+
 #iterate over elements
 #if elements matches argument
 #store element in new array

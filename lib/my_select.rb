@@ -8,6 +8,7 @@ if block_given?
       new_arr.push(collection[i])
     i += 1
   end
+end
 
 else
   "No block given."

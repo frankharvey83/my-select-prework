@@ -9,7 +9,7 @@ if block_given?
     end
     i += 1
   end
-end
+
 else
   "No block given."
 end
